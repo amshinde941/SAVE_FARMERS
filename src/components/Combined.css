@@ -1,0 +1,158 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/home.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.mission{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/mission.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.component-content{
+    margin-left: 10em;
+    width: 25em;
+    margin-top: 12em;
+    text-align: left;
+    background-color: #635e5e66;
+    padding: 1em;
+}
+.component-content h1{
+    text-transform: uppercase;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+.component-content h3{
+    font-weight: 500;
+    font-size: 25px;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    color: white;
+}
+.mission .component-content{
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 30%;
+    width: 35%;
+}
+.approach{
+    margin-top: 100px;
+}
+.approach-content{
+    text-align: center;
+    padding-left: 40%;
+    width: 1050px;
+}
+.approach-content h1{
+    text-transform: uppercase;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.approach-content h3{
+    font-weight: 500;
+    font-size: 25px;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+}
+.approach .icons{
+    display: inline-flex;
+    text-align: center;
+    padding-left: 8em;
+    margin:50px;
+}
+.icons p{
+    font-size: 20px;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+}
+.problem{
+    padding-left: 8em;
+    margin:10px;
+    display: inline-flex;
+}
+.input {
+    border: 1px solid var(--g_900);
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 12px 16px;
+    width:400px;
+  }
+  .btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: rgba(235, 238, 41, 0.5);
+  }
+  .btn:hover{
+    box-shadow: 0px 4px 8px rgba(253, 184, 17, 0.5);
+    border: 1px groove rgb(102, 100, 100);
+  }
+  .button-donate{
+    background-color:green;
+    border: 1px solid black;
+    width:6em;
+    height: 2em;
+    box-shadow: 0px 4px 8px rgba(29, 29, 28, 0.5);
+    text-align: center;
+    margin-top: 2px;
+  }
+  .button-donate a{
+      text-decoration: none;
+      color:white;
+      margin-top: 4px;
+  }
+
+@media (max-width:1360px) {
+    .approach-content{
+        text-align: center;
+        padding-left: 30%;
+        width: 25em;
+        margin-top:0px;
+    }
+    .approach .icons{
+        display: block;
+        text-align: center;
+        padding-left: 8em;
+        margin:50px;
+    }
+    
+}
+.info{
+    padding: 3em;
+}
+@media (max-width:786px) {
+    .component-content{
+        margin-left: 1em;
+        margin-right: 1em;
+        padding: 1em;
+        width: auto;
+    }
+    .mission .component-content{
+        margin:auto;
+        width: auto;
+    }
+    .approach-content{
+        padding-left: 20%;
+        width: 20em;
+    }
+    .approach .icons{
+        padding-left: 4em;
+        margin:30px;
+    }
+    .icons div{
+        padding: 1%;
+    }
+    .info{
+        padding: 0;
+    }
+}
